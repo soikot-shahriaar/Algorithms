@@ -11,9 +11,9 @@ int binarySearch(int arr[], int size, int element)
     {
         mid = (low + high) / 2;
 
-        if (arr[mid] == element)
+        if (element == arr[mid])
             return mid;
-        if (arr[mid] < element)
+        if (element > arr[mid])
             low = mid + 1;
         else
             high = mid - 1;
