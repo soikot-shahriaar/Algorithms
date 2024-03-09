@@ -11,7 +11,7 @@ void printArray(int *A, int n)
 }
 
 // Function to merge two sorted sub arrays into one sorted array
-void merge(int A[], int mid, int low, int high)
+void mergeSort(int A[], int mid, int low, int high)
 {
     int i, j, k, B[100]; // B is a temporary array to store merged data
     i = low;
@@ -55,15 +55,15 @@ void merge(int A[], int mid, int low, int high)
 }
 
 // Recursive function to perform merge sort
-void mergeSort(int A[], int low, int high)
+void mergeSortRecursive(int A[], int low, int high)
 {
     int mid;
     if (low < high)
     {
-        mid = (low + high) / 2;      // Calculate the middle of the array
-        mergeSort(A, low, mid);      // Recursively sort the left sub array
-        mergeSort(A, mid + 1, high); // Recursively sort the right sub array
-        merge(A, mid, low, high);    // Merge the two sorted sub arrays
+        mid = (low + high) / 2;               // Calculate the middle of the array
+        mergeSortRecursive(A, low, mid);      // Recursively sort the left sub array
+        mergeSortRecursive(A, mid + 1, high); // Recursively sort the right sub array
+        merge(A, mid, low, high);             // Merge the two sorted sub arrays
     }
 }
 
@@ -71,13 +71,12 @@ int main()
 {
     int A[] = {9, 1, 4, 14, 4, 15, 6};
     int n = 7;
-    // Print the array before sorting
+
     printf("Array Before Sorting: ");
     printArray(A, n);
 
-    mergeSort(A, 0, 6); // Call mergeSort to sort the array
+    mergeSortRecursive(A, 0, 6);
 
-    // Print the sorted array
     printf("Sorted Array: ");
     printArray(A, n);
     return 0;

@@ -71,11 +71,12 @@ int main()
 {
     int A[] = {9, 1, 4, 14, 4, 15, 6};
     int n = 7;
-    // Print the array before sorting
+
     printf("Array Before Sorting: ");
     printArray(A, n);
-    countSort(A, n); // Call countSort to sort the array
-    // Print the sorted array
+
+    countSort(A, n);
+
     printf("Sorted Array: ");
     printArray(A, n);
     return 0;

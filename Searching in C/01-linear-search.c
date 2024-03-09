@@ -14,8 +14,8 @@ int main()
 {
     // unsorted array for linear search
     int arr[] = {1, 3, 5, 57, 4, 6, 23, 5, 4, 54, 56, 34};
-    int size = sizeof(arr) / sizeof(int); 
-    int element = 45;
+    int size = sizeof(arr) / sizeof(int);
+    int element = 23;
 
     int searchIndex = linearSearch(arr, size, element);
 

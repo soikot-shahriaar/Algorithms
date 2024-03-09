@@ -70,13 +70,13 @@ int main()
     // 3, 2, 2, 3j, 12i, 13, 5, 13, 45 --> first call to partition returns 3
     int n = 9; // Number of elements in the array
     n = 7;
-    // Print the array before sorting
+
     printf("Array Before Sorting: ");
     printArray(A, n);
 
-    quickSort(A, 0, n - 1); // Call the Quick Sort function
+    // Call the Quick Sort function
+    quickSort(A, 0, n - 1); 
 
-    // Print the sorted array
     printf("Sorted Array: ");
     printArray(A, n);
 

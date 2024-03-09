@@ -10,7 +10,7 @@ void printArray(int *A, int n)
     printf("\n");
 }
 
-// Classic Bubble Sort algorithm
+// Classic Bubble Sort Algorithm
 void bubbleSort(int *A, int n)
 {
     int temp;
@@ -31,7 +31,7 @@ void bubbleSort(int *A, int n)
     }
 }
 
-// Bubble Sort algorithm with an adaptive flag
+// Bubble Sort Algorithm with an Adaptive Flag
 void bubbleSortAdaptive(int *A, int n)
 {
     int temp;
@@ -65,14 +65,11 @@ int main()
     int A[] = {1, 2, 5, 6, 12, 54, 625, 7, 955, 986, 987};
     int n = 11;
 
-    // Print the array before sorting
     printf("Array Before Sorting: ");
     printArray(A, n);
 
-    // Sort the array using the bubbleSort function
     bubbleSortAdaptive(A, n);
 
-    // Print the sorted array
     printf("Sorted Array: ");
     printArray(A, n);
 

@@ -10,7 +10,7 @@ void printArray(int *A, int n)
     printf("\n");
 }
 
-// Selection Sort algorithm
+// Selection Sort Algorithm
 void selectionSort(int *A, int n)
 {
     int indexOfMin, temp;
@@ -61,14 +61,12 @@ int main()
     // Initialize an array of integers
     int A[] = {3, 5, 2, 13, 12};
     int n = 5;
-    // Print the array before sorting
+
     printf("Array Before Sorting: ");
     printArray(A, n);
 
-    // Sort the array using the selectionSort function
     selectionSort(A, n);
 
-    // Print the sorted array
     printf("Sorted Array: ");
     printArray(A, n);
 

@@ -10,7 +10,7 @@ void printArray(int *A, int n)
     printf("\n");
 }
 
-// Insertion Sort algorithm
+// Insertion Sort Algorithm
 void insertionSort(int *A, int n)
 {
     int key, j;
@@ -59,14 +59,11 @@ int main()
     int A[] = {12, 54, 65, 7, 23, 9};
     int n = 6;
 
-    // Print the array before sorting
     printf("Array Before Sorting: ");
     printArray(A, n);
 
-    // Sort the array using the insertionSort function
     insertionSort(A, n);
 
-    // Print the sorted array
     printf("Sorted Array: ");
     printArray(A, n);
 
