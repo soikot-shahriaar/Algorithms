@@ -1,4 +1,4 @@
-// Problem Link: 
+// Problem Link
 // https://vjudge.net/contest/575128#problem/A
 
 #include <stdio.h>
