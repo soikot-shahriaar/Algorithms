@@ -2,7 +2,6 @@
 // https://vjudge.net/contest/575138#problem/H
 
 #include <bits/stdc++.h>
-
 using namespace std;
 using Long = long long;
 

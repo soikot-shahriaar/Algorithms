@@ -1,15 +1,4 @@
-// Problem Link:
-// https://vjudge.net/contest/575136#problem/K
-
-#include <cstdio>
-#include <cstring>
-#include <string>
-#include <cmath>
-#include <cstdlib>
-#include <map>
-#include <iostream>
-#include <vector>
-#include <algorithm>
+#include <bits/stdc++.h>
 using namespace std;
 
 int main()

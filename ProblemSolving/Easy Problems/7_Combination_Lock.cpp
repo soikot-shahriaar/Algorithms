@@ -1,7 +1,7 @@
 // Problem Link:
 // https://vjudge.net/contest/575161#problem/G
 
-#include <bits\stdc++.h>
+#include <iostream>
 using namespace std;
 
 int main()

@@ -3,7 +3,6 @@
 
 #include <iostream>
 #include <algorithm>
-
 using namespace std;
 
 unsigned int heights[50005];

@@ -4,6 +4,7 @@
 #include <iostream>
 #define nINF -2147483647
 using namespace std;
+
 int main()
 {
     int t, n, x[100001], mx, mn, MAX;

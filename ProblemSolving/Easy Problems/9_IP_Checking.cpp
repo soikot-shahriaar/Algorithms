@@ -3,6 +3,7 @@
 
 #include <bits/stdc++.h>
 using namespace std;
+
 typedef long long ll;
 const int N = 95 + 10;
 #define pii pair<int, int>
